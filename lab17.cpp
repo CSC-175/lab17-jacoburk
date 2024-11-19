@@ -4,7 +4,7 @@ void findHigh(A arr[], B size, int &index,C &high ) {
     high = arr[0];
     for (int i = 0; i < size; i++) {
         if (high < arr[i]) {
-            index =1;
+            index = i;
             high = arr[i];
         }
     }
